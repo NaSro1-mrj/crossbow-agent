@@ -58,7 +58,7 @@ Crossbow figures out what to test and how to test it. Results stream back as the
 /quit      - Exit
 ```
 
-## Real World Bugs Crossbow Found Autonmously
+## Real World Bugs Crossbow Found Autonomously
 
 **Hardcoded Credentials in Firmware**
 
